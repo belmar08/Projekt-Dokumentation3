@@ -8,5 +8,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a command with a secret
         env:
-          API_KEY: ${{ secrets.API_KEY }} # Use your secret here
+          API_KEY: ${{ secrets.FTP_USER }} # Use your secret here
         run: echo "Using secret in a command"
